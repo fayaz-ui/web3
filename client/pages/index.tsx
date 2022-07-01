@@ -29,8 +29,7 @@ const Home = () => {
       case 'noMetaMask':
         return noMetaMaskFound
 
-      case 'error':
-        return error
+      
 
       default:
         return loading
