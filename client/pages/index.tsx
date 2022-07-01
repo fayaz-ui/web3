@@ -32,7 +32,7 @@ const Home = () => {
       
 
       default:
-        return loading
+        return userLoggedIn
     }
   }
 
