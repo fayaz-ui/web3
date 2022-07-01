@@ -29,10 +29,11 @@ const Home = () => {
       case 'noMetaMask':
         return noMetaMaskFound
 
-      
+      case 'Error':
+        return error
 
       default:
-        return userLoggedIn
+        return loading
     }
   }
 
